@@ -1,0 +1,15 @@
+{
+  "name": "ClientTranslator",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$className": "Folder",
+        "ClientTranslator": {
+          "$path": "src"
+        }
+      }
+    }
+  }
+}
