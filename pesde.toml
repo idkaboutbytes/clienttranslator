@@ -1,0 +1,32 @@
+name = "idkaboutbytes/clienttranslator"
+version = "1.0.2"
+description = "ClientTranslator package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/clienttranslator"
+includes = [
+    "pesde.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "default.project.json",
+    "src/**/*.luau",
+]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
+
+[dependencies]
+Enums = { repo = "idkaboutbytes/enums", rev = "v1.0.0" }
+Maid = { repo = "idkaboutbytes/maid", rev = "v1.0.0" }
+Observable = { repo = "idkaboutbytes/observable", rev = "v1.0.0" }
+Promise = { repo = "idkaboutbytes/Promise", rev = "v1.0.0" }
+PromiseMaidUtils = { repo = "idkaboutbytes/Promisemaidutils", rev = "v1.0.0" }
+Rx = { repo = "idkaboutbytes/rx", rev = "v1.0.0" }
+RxInstanceUtils = { repo = "idkaboutbytes/rxinstanceutils", rev = "v1.0.0" }
+Stringutils = { repo = "idkaboutbytes/string", rev = "v1.0.0" }
+ValueObject = { repo = "idkaboutbytes/valueobject", rev = "v1.0.0" }
